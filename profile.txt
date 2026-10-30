@@ -1,0 +1,38 @@
+Name: Ritik Jain
+Email: ritikjain64210@gmail.com
+LinkedIn: https://www.linkedin.com/in/ritik-jain-167805438
+GitHub: https://github.com/Ritikjain1412
+
+EDUCATION
+[Graduation]:
+- Degree: B.com(H) in Accounts and Finance.
+- College: Atal Bihari Vajpayee University, Bilaspur
+- Year: 2026
+- CGPA: 82.20
+[School]:
+- 10th: 80.80%
+- 12th: 89%
+- School name: Carmel School, Ambikapur
+
+SKILLS
+- Skill 1: Programming language- Python(variables,data Types,operators,functions,conditional  
+           statements,LOOPS,OOPS)
+- Skill 2: Tools- Git,GitHub,VS code
+- skill 3: AI/LLM intregration, Generative AI fundamentals, Prompt engineering, Deployement, RAG, 
+           Langchain, FastAPI.
+- Skill 4: MS office(Excel, Word, Powerpoint)
+
+PROJECTS
+1. IOS vs ANDROID(Comparative Project Report):
+  - Prepared a university project report comparing IOS vs ANDROID across key business and consumer-
+    related parameters.
+  - Researched and organised information from multiple sources to develop project.
+  - Structured findings into a clear and professional report.
+  - Applied analytical,communication and presentation skills while working on the project.
+
+2. AI-Powered Resume Evaluator|Python,Groq API,LLMs 
+  - Developed an AI tool to match multiple resumes with job descriptions and rank candidates.
+  - Integreted PDF/DOCX parsing and Groq API for AI-powered resume analysis.
+  - Implemented matching scores,missing skills detection,and AI-generated resume
+    improvement suggestions.
+    
