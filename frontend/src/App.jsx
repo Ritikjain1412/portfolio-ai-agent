@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
 import ReactMarkdown from 'react-markdown'
 import './App.css'
-
+import remarkGfm from 'remark-gfm';
 function App() {
   const [messages, setMessages] = useState([
     { role: "ai", content: "Hello! I am Ritik's AI assistant. How can I help you today?" }
@@ -27,7 +27,7 @@ function App() {
     setMessages((prev) => [...prev, { role: "ai", content: "" }]);
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/chat", {
+      const response = await fetch("https://portfolio-ai-agent-jrgm.onrender.com/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ messages: chatHistory }) 
@@ -68,7 +68,7 @@ function App() {
               <div className="message-sender">
                 {msg.role === "user" ? "Ritik" : "AI"}
               </div>
-              <ReactMarkdown>{msg.content}</ReactMarkdown>
+              <ReactMarkdown remarkPlugins={[remarkGfm]}>{msg.content}</ReactMarkdown>
             </div>
           </div>
         ))}
