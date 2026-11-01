@@ -10,8 +10,8 @@ EDUCATION
 - Year: 2026
 - CGPA: 82.20
 [School]:
-- 10th: 80.80%
-- 12th: 89%
+- 10th: 80.80% (year:2021)
+- 12th: 89% (year:2023)
 - School name: Carmel School, Ambikapur
 
 SKILLS
